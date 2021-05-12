@@ -1,3 +1,4 @@
+Mini project in c
 Cricket Score Sheet Management: This project includes the process of entering and recording the respective details of the players such as their names, 
 the number of balls they have played, the number of runs they have hit, their batting and bowling status etc. 
 It also includes the feature of calculating the total balls played and total score hit by the batting team as well as total overs bowled by the bowling team. 
