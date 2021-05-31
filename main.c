@@ -1,6 +1,7 @@
 //Header files
 #include <stdio.h>
 #include <stdlib.h>
+
 #include <stdbool.h>
 
 //Functions included.
@@ -37,11 +38,13 @@ struct bowlers
     bool bowling;
 }bowl[11];
 
+
 //Main function
 int main()
 {
     mainMenu();
 }
+
 
 //Main menu(Where you take choice from the user)
 void mainMenu()
@@ -65,6 +68,7 @@ void mainMenu()
     }
 }
 
+
 //If the choice is 1 then this function is executed.
 void newScorecard()
 {
@@ -77,6 +81,7 @@ void newScorecard()
 //Funtion to get team details(Batting and bowling team)
 void teamDetails()
 {
+	
     system("cls");
     printf("\n\n\n\tPLAYER DETAILS\n\n");
     printf("\tEnter BATTING team players names(11 players):\n");
@@ -105,6 +110,7 @@ void teamDetails()
 //This function handles the scoring process.(very important and very difficult to understand)
 void scoringProcess()
 {
+	
     int b1,b2,nb,bo;
     char brun='1';
 
